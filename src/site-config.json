@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Premier Window Pros",
+    "phone": "+16123633914",
+    "category": "window and door installer",
+    "city": "Minneapolis",
+    "state": "MN"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Windows & Doors Built to Last",
+      "heroSubline": "Minneapolis winters demand performance. Premier Window Pros delivers expertly installed, energy-efficient solutions for your home.",
+      "aboutTitle": "Minneapolis' Trusted Window & Door Experts",
+      "aboutText": [
+        "Premier Window Pros started with a simple mission: to provide Minneapolis homeowners with durable, energy-efficient window and door solutions that can withstand our harsh Minnesota climate. We’re a local team dedicated to quality craftsmanship and superior customer service.",
+        "Our approach is straightforward – we listen to your needs, assess your home, and recommend the best products for your budget and style. We believe in transparent pricing and no-pressure consultations, ensuring you make informed decisions.",
+        "We're deeply committed to the Minneapolis community. We source materials locally whenever possible and actively participate in neighborhood initiatives to give back to the city we call home."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand the unique challenges Minneapolis homes face, from ice dams to extreme temperature swings."
+        },
+        {
+          "title": "Energy Efficiency",
+          "description": "Our windows and doors are designed to minimize heat loss and reduce your energy bills, keeping you comfortable year-round."
+        },
+        {
+          "title": "Expert Installation",
+          "description": "Our skilled installers ensure a perfect fit and optimal performance, preventing drafts and water damage."
+        },
+        {
+          "title": "Quality Products",
+          "description": "We partner with leading manufacturers to offer a wide selection of durable, stylish windows and doors."
+        }
+      ],
+      "ctaHeadline": "Upgrade Your Home Today",
+      "ctaSubline": "Get a free, no-obligation consultation and discover the Premier Window Pros difference."
+    },
+    "services": [
+      {
+        "slug": "window-replacement",
+        "name": "Window Replacement",
+        "shortDescription": "Boost your home's comfort and value with our expert window replacement services.",
+        "description": "Minneapolis winters are brutal on windows. Cracked frames, condensation, and drafts are common problems that lead to higher energy bills and uncomfortable living spaces. Premier Window Pros offers comprehensive window replacement services, tailored to the specific needs of your home. We start with a thorough assessment of your existing windows, identifying areas of concern and recommending the best replacement options. \n\nWe offer a wide selection of window styles, from classic double-hung to modern casement and awning windows, all designed for energy efficiency and durability. Our experienced installers ensure a precise fit and proper sealing, preventing air leaks and water damage. We handle everything from removing your old windows to installing the new ones, leaving your home clean and comfortable. We specialize in insulated glass packages designed to withstand Minnesota's extreme temperature fluctuations. Invest in quality window replacements and enjoy a more comfortable, energy-efficient home for years to come.",
+        "process": [
+          "Step 1: Free Consultation & Estimate",
+          "Step 2: Window Selection & Customization",
+          "Step 3: Professional Installation",
+          "Step 4: Post-Installation Inspection & Cleanup"
+        ],
+        "benefits": [
+          "Improved Energy Efficiency",
+          "Increased Home Value",
+          "Enhanced Curb Appeal",
+          "Reduced Noise Pollution"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need new windows?",
+            "answer": "Common signs include drafts, condensation between the panes, difficulty opening or closing, and rotting frames. Increased energy bills can also indicate failing windows."
+          },
+          {
+            "question": "What type of windows are best for Minneapolis?",
+            "answer": "Windows with insulated glass, low-E coatings, and argon gas fills are ideal for Minneapolis' climate. Vinyl and fiberglass frames offer excellent durability and energy efficiency."
+          },
+          {
+            "question": "How long does window replacement take?",
+            "answer": "The duration depends on the number of windows being replaced and the complexity of the project. Most projects can be completed in one to two days."
+          }
+        ]
+      },
+      {
+        "slug": "door-installation",
+        "name": "Door Installation",
+        "shortDescription": "Secure your home and enhance its style with our professional door installation services.",
+        "description": "A properly installed door is crucial for security, energy efficiency, and curb appeal. Premier Window Pros provides expert door installation services for Minneapolis homeowners, ensuring a perfect fit and long-lasting performance. We offer a wide selection of door styles, including entry doors, patio doors, and storm doors, each designed to meet your specific needs and preferences. \n\nWe handle everything from removing your old door to installing the new one, paying close attention to detail to ensure a secure and weatherproof seal. Our experienced installers are skilled in working with various door materials, including wood, steel, and fiberglass. We also offer customization options, such as hardware selection, paint colors, and decorative glass inserts, allowing you to create a door that perfectly complements your home's style. Protect your home from the elements and enhance its beauty with our professional door installation services.",
+        "process": [
+          "Step 1: Consultation & Door Selection",
+          "Step 2: Precise Measurements & Customization",
+          "Step 3: Expert Door Installation",
+          "Step 4: Weatherproofing & Security Check"
+        ],
+        "benefits": [
+          "Enhanced Security",
+          "Improved Energy Efficiency",
+          "Increased Curb Appeal",
+          "Reduced Drafts"
+        ],
+        "faq": [
+          {
+            "question": "What type of door is best for my front entry?",
+            "answer": "Fiberglass and steel doors offer excellent security and energy efficiency. Wood doors provide a classic look but require more maintenance."
+          },
+          {
+            "question": "How do I know if my door needs to be replaced?",
+            "answer": "Signs include drafts, difficulty opening or closing, rotting wood, and visible damage to the door or frame."
+          },
+          {
+            "question": "Can you install a custom-sized door?",
+            "answer": "Yes, we can install custom-sized doors to fit any opening. We'll take precise measurements to ensure a perfect fit."
+          }
+        ]
+      },
+      {
+        "slug": "storm-door-installation",
+        "name": "Storm Door Installation",
+        "shortDescription": "Protect your entry door from the elements with a durable, stylish storm door.",
+        "description": "Minneapolis weather can be unpredictable, and a storm door is an essential addition to protect your entry door from rain, snow, and wind. Premier Window Pros offers professional storm door installation services, ensuring your entry door stays protected and your home remains comfortable. We offer a variety of storm door styles, including full-view, half-view, and retractable screen options, allowing you to customize the look and functionality of your door.\n\nOur experienced installers ensure a proper fit and secure installation, preventing drafts and water damage. We also offer a range of hardware options, including handles, locks, and closers, to enhance the security and convenience of your storm door. Invest in a quality storm door and protect your entry door from the elements for years to come. Extend the life of your entry door and improve your home's energy efficiency with our expert storm door installation services.",
+        "process": [
+          "Step 1: Storm Door Selection & Consultation",
+          "Step 2: Precise Measurements & Customization",
+          "Step 3: Professional Storm Door Installation",
+          "Step 4: Hardware Installation & Weatherproofing"
+        ],
+        "benefits": [
+          "Protection from the Elements",
+          "Improved Energy Efficiency",
+          "Extended Life of Entry Door",
+          "Added Security"
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a full-view and half-view storm door?",
+            "answer": "A full-view storm door has a large glass panel that provides unobstructed views, while a half-view storm door has a smaller glass panel and a solid panel at the bottom for added durability."
+          },
+          {
+            "question": "Can you install a storm door on any type of entry door?",
+            "answer": "We can install storm doors on most types of entry doors, including wood, steel, and fiberglass."
+          },
+          {
+            "question": "How long does storm door installation take?",
+            "answer": "Storm door installation typically takes a few hours, depending on the complexity of the project."
+          }
+        ]
+      },
+      {
+        "slug": "patio-door-installation",
+        "name": "Patio Door Installation",
+        "shortDescription": "Bring the outdoors in with our beautiful and energy-efficient patio door installation.",
+        "description": "Enhance your indoor-outdoor living space with a new patio door from Premier Window Pros. We offer professional patio door installation services for Minneapolis homeowners, providing a seamless transition between your home and your backyard. We offer a variety of patio door styles, including sliding glass doors, French doors, and bi-folding doors, each designed to complement your home's style and meet your specific needs. \n\nOur experienced installers ensure a proper fit and smooth operation, preventing drafts and water damage. We also offer a range of customization options, such as hardware selection, glass types, and screen options, allowing you to create a patio door that perfectly suits your lifestyle. Maximize your living space and enjoy the beauty of the outdoors with our expert patio door installation services.",
+        "process": [
+          "Step 1: Patio Door Selection & Consultation",
+          "Step 2: Precise Measurements & Customization",
+          "Step 3: Professional Patio Door Installation",
+          "Step 4: Hardware Installation & Weatherproofing"
+        ],
+        "benefits": [
+          "Enhanced Indoor-Outdoor Living",
+          "Improved Natural Light",
+          "Increased Home Value",
+          "Smooth Operation"
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a sliding glass door and a French door?",
+            "answer": "A sliding glass door slides horizontally, while a French door has two doors that swing open. Sliding glass doors are space-saving, while French doors offer a more traditional look."
+          },
+          {
+            "question": "What type of glass is best for patio doors?",
+            "answer": "Insulated glass with low-E coatings is ideal for patio doors, as it helps to reduce heat transfer and improve energy efficiency."
+          },
+          {
+            "question": "How long does patio door installation take?",
+            "answer": "Patio door installation typically takes one to two days, depending on the complexity of the project."
+          }
+        ]
+      },
+      {
+        "slug": "window-repair",
+        "name": "Window Repair",
+        "shortDescription": "Restore your windows to their former glory with our reliable window repair services.",
+        "description": "Don't replace your windows if you don't have to! Premier Window Pros offers professional window repair services for Minneapolis homeowners, saving you money and extending the life of your existing windows. We can repair a wide range of window problems, including cracked glass, broken hardware, damaged frames, and condensation between the panes. Our experienced technicians will assess the damage and recommend the most cost-effective repair solution.\n\nWe use high-quality materials and proven techniques to ensure a lasting repair. Whether you need a simple glass replacement or a more complex frame repair, we have the skills and expertise to get the job done right. Restore your windows to their original condition and improve your home's energy efficiency with our reliable window repair services.",
+        "process": [
+          "Step 1: Window Inspection & Damage Assessment",
+          "Step 2: Repair Solution Recommendation & Estimate",
+          "Step 3: Professional Window Repair",
+          "Step 4: Quality Check & Weatherproofing"
+        ],
+        "benefits": [
+          "Cost-Effective Solution",
+          "Extended Life of Windows",
+          "Improved Energy Efficiency",
+          "Restored Window Functionality"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair windows with condensation between the panes?",
+            "answer": "Yes, we can repair windows with condensation by replacing the insulated glass unit."
+          },
+          {
+            "question": "Do you offer glass replacement services?",
+            "answer": "Yes, we offer glass replacement services for all types of windows."
+          },
+          {
+            "question": "How much does window repair cost?",
+            "answer": "The cost of window repair depends on the type and extent of the damage. We'll provide a free estimate after inspecting your windows."
+          }
+        ]
+      },
+      {
+        "slug": "custom-window-installation",
+        "name": "Custom Window Installation",
+        "shortDescription": "Unique spaces deserve uniquely fitted windows. Precisely measured and expertly installed.",
+        "description": "Some homes in Minneapolis, especially those in older neighborhoods like Uptown or near the Chain of Lakes, feature unique architectural designs. Standard windows simply won't do. Premier Window Pros specializes in custom window installation, crafting solutions for arched windows, oversized openings, and unusual shapes. We work closely with you to design and install windows that perfectly complement your home's character and meet your specific needs. \n\nOur team uses advanced measuring techniques and precise installation methods to ensure a seamless fit and optimal performance. We can source custom-made windows in a variety of materials, including wood, vinyl, and fiberglass, to match your existing windows or create a bold new look. From historic renovations to modern masterpieces, we have the expertise to handle any custom window installation project. Don't settle for ordinary windows; let us create something truly special for your home.",
+        "process": [
+          "Step 1: On-Site Consultation & Design",
+          "Step 2: Precise Measurements & Specifications",
+          "Step 3: Custom Window Manufacturing",
+          "Step 4: Expert Installation & Finishing"
+        ],
+        "benefits": [
+          "Perfect Fit for Unique Spaces",
+          "Enhanced Architectural Style",
+          "Increased Home Value",
+          "Personalized Design Options"
+        ],
+        "faq": [
+          {
+            "question": "Can you match the existing style of my historic windows?",
+            "answer": "Yes, we specialize in replicating historic window styles to preserve the character of your home."
+          },
+          {
+            "question": "What materials are available for custom windows?",
+            "answer": "We offer custom windows in wood, vinyl, fiberglass, and aluminum, each with its own unique benefits."
+          },
+          {
+            "question": "How long does custom window installation take?",
+            "answer": "The timeline for custom window installation depends on the complexity of the project and the lead time for manufacturing the windows. We'll provide a detailed timeline during the consultation process."
+          }
+        ]
+      },
+      {
+        "slug": "energy-efficient-upgrades",
+        "name": "Energy-Efficient Upgrades",
+        "shortDescription": "Lower your utility bills and improve comfort with energy-efficient window and door upgrades.",
+        "description": "Minneapolis homeowners know the importance of energy efficiency. With our extreme winters and warm summers, high-performance windows and doors are essential for maintaining a comfortable home and keeping energy costs down. Premier Window Pros offers a range of energy-efficient upgrades, including insulated glass replacements, weather stripping, and air sealing. We can help you identify areas of your home that are losing energy and recommend the best solutions to improve efficiency. \n\nOur team uses advanced techniques and high-quality materials to ensure a lasting and effective upgrade. We can also help you take advantage of available rebates and incentives for energy-efficient home improvements. Invest in energy-efficient upgrades and enjoy a more comfortable, sustainable, and affordable home for years to come. Reduce your carbon footprint and save money on your energy bills with our expert energy-efficient upgrade services.",
+        "process": [
+          "Step 1: Energy Audit & Assessment",
+          "Step 2: Upgrade Recommendations & Planning",
+          "Step 3: Professional Installation & Sealing",
+          "Step 4: Performance Testing & Verification"
+        ],
+        "benefits": [
+          "Reduced Energy Bills",
+          "Improved Home Comfort",
+          "Increased Home Value",
+          "Environmental Sustainability"
+        ],
+        "faq": [
+          {
+            "question": "What is the R-value of your energy-efficient windows?",
+            "answer": "Our energy-efficient windows have R-values ranging from R-3 to R-8, depending on the glass package and frame material."
+          },
+          {
+            "question": "Can you help me qualify for energy efficiency rebates?",
+            "answer": "Yes, we can help you identify and apply for available rebates and incentives for energy-efficient home improvements."
+          },
+          {
+            "question": "How much can I save on my energy bills with energy-efficient upgrades?",
+            "answer": "The amount you can save on your energy bills depends on the extent of the upgrades and the energy efficiency of your existing windows and doors. We can provide an estimate based on your specific situation."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "St. Paul",
+        "slug": "st-paul-mn",
+        "state": "MN",
+        "content": "Premier Window Pros is proud to offer our expert window and door installation services to the residents of St. Paul, Minnesota. From the historic charm of Summit Avenue's Victorian-era homes to the more modern developments throughout the city, we understand the unique architectural styles and needs of St. Paul homeowners. Our team is experienced in working with a variety of home styles, ensuring that your new windows and doors complement and enhance your property's aesthetic. \n\nWe know that St. Paul experiences harsh winters with temperatures often dipping below zero. That's why we offer energy-efficient window and door options that will help keep your home warm and comfortable while reducing your energy bills. Whether you're looking to replace drafty old windows or upgrade your front door for improved security, Premier Window Pros has the perfect solution for your St. Paul home. We are committed to providing top-quality products and exceptional service to our customers in the capital city.",
+        "localContext": "St. Paul, Minnesota's capital city, is known for its historic architecture, particularly the grand Victorian homes along Summit Avenue, and its vibrant cultural scene.",
+        "nearbyAreas": [
+          "Minneapolis",
+          "West St. Paul",
+          "Maplewood"
+        ]
+      },
+      {
+        "city": "Plymouth",
+        "slug": "plymouth-mn",
+        "state": "MN",
+        "content": "Premier Window Pros is dedicated to providing top-notch window and door installation services in Plymouth, Minnesota. With its established suburban neighborhoods featuring homes from the 1970s and 80s, Plymouth presents a variety of window and door replacement needs. We understand the common architectural styles found in Plymouth and can help you choose the perfect windows and doors to match your home's character.\n\nGiven Plymouth's extreme winter climate, energy efficiency is a top priority for homeowners. We offer a wide selection of energy-efficient windows and doors that are designed to withstand the cold and keep your home comfortable year-round. Our team is committed to providing exceptional service and quality products to the residents of Plymouth.",
+        "localContext": "Plymouth, Minnesota is a thriving suburban city with many established neighborhoods dating back to the 1970s and 80s.",
+        "nearbyAreas": [
+          "Maple Grove",
+          "Minnetonka",
+          "Medicine Lake"
+        ]
+      },
+      {
+        "city": "Eden Prairie",
+        "slug": "eden-prairie-mn",
+        "state": "MN",
+        "content": "Premier Window Pros is your trusted provider for window and door installation services in Eden Prairie, Minnesota. Known for its well-planned developments from the 1980s and 90s, Eden Prairie boasts a diverse range of home styles. We have extensive experience working with these homes and can help you find the ideal windows and doors to enhance your property's curb appeal and energy efficiency.\n\nWith harsh winters and significant temperature fluctuations throughout the year, Eden Prairie homeowners need windows and doors that can stand up to the elements. We offer a variety of energy-efficient options that will keep your home comfortable and reduce your energy costs. Premier Window Pros is committed to providing exceptional service and quality products to the residents of Eden Prairie.",
+        "localContext": "Eden Prairie, Minnesota is characterized by its planned residential developments from the 1980s and 1990s, offering a variety of housing styles.",
+        "nearbyAreas": [
+          "Minnetonka",
+          "Hopkins",
+          "Chanhassen"
+        ]
+      },
+      {
+        "city": "Maple Grove",
+        "slug": "maple-grove-mn",
+        "state": "MN",
+        "content": "Premier Window Pros is proud to serve the residents of Maple Grove, Minnesota, with our expert window and door installation services. Maple Grove is a growing family-friendly community with many homes built in the 1990s and 2000s. We understand the common architectural styles found in Maple Grove and can help you choose the perfect windows and doors to match your home's aesthetic.\n\nGiven Maple Grove's cold winters, energy efficiency is a key concern for homeowners. We offer a wide selection of energy-efficient windows and doors that are designed to keep your home warm and comfortable while reducing your energy bills. Premier Window Pros is committed to providing top-quality products and exceptional service to the residents of Maple Grove.",
+        "localContext": "Maple Grove, Minnesota is a vibrant city known for its family-friendly atmosphere and residential developments from the 1990s and 2000s.",
+        "nearbyAreas": [
+          "Plymouth",
+          "Osseo",
+          "Rogers"
+        ]
+      },
+      {
+        "city": "Bloomington",
+        "slug": "bloomington-mn",
+        "state": "MN",
+        "content": "Premier Window Pros offers reliable window and door installation services to homeowners in Bloomington, Minnesota. Bloomington features many established ranch-style homes from the 1960s and 70s. We are knowledgeable about the specific needs of these homes and can provide window and door solutions that enhance their style and energy efficiency.\n\nBloomington experiences frigid winters, making energy-efficient windows and doors a necessity. We offer a variety of options designed to withstand the cold and help you save on energy costs. Premier Window Pros is dedicated to providing excellent service and top-quality products to the Bloomington community.",
+        "localContext": "Bloomington, Minnesota, is characterized by its established neighborhoods with ranch-style homes built primarily in the 1960s and 70s.",
+        "nearbyAreas": [
+          "Richfield",
+          "Edina",
+          "Eagan"
+        ]
+      },
+      {
+        "city": "Minneapolis",
+        "slug": "minneapolis-mn",
+        "state": "MN",
+        "content": "Premier Window Pros provides window and door replacement and installation services throughout Minneapolis, MN. From the historic homes of Northeast to the modern condos downtown, we understand the diverse architectural landscape of the city. We offer a wide range of window and door styles to match any home, and we're committed to providing exceptional service to our Minneapolis customers.\n\nMinneapolis winters are notoriously harsh, so energy efficiency is a top priority for many homeowners. Our energy-efficient windows and doors can help keep your home warm and comfortable while saving you money on your energy bills. Let Premier Window Pros help you find the perfect windows and doors for your Minneapolis home.",
+        "localContext": "Minneapolis, Minnesota is a major metropolitan city with diverse architecture, ranging from historic homes to modern high-rises.",
+        "nearbyAreas": [
+          "St. Paul",
+          "Richfield",
+          "Golden Valley"
+        ]
+      },
+      {
+        "city": "Minnetonka",
+        "slug": "minnetonka-mn",
+        "state": "MN",
+        "content": "Premier Window Pros is dedicated to providing high-quality window and door services to the residents of Minnetonka, Minnesota. Minnetonka offers a mix of housing styles, from older homes to newer constructions. We are experienced in working with a variety of architectural designs and can help you find the perfect windows and doors to complement your Minnetonka home.\n\nWith its cold winters, Minnetonka homeowners need windows and doors that are energy efficient and can withstand the elements. We offer a wide selection of energy-efficient options that will keep your home comfortable and reduce your energy costs. Premier Window Pros is committed to providing exceptional service and quality products to the residents of Minnetonka.",
+        "localContext": "Minnetonka, Minnesota, features a diverse range of housing styles, reflecting its growth and development over the years.",
+        "nearbyAreas": [
+          "Plymouth",
+          "Eden Prairie",
+          "Hopkins"
+        ]
+      },
+      {
+        "city": "Edina",
+        "slug": "edina-mn",
+        "state": "MN",
+        "content": "Premier Window Pros is your trusted partner for window and door installation in Edina, Minnesota. Edina's neighborhoods showcase a variety of architectural styles, from classic Tudor homes to modern designs. We understand the unique characteristics of Edina homes and can provide window and door solutions that enhance their beauty and value.\n\nEdina experiences cold winters, making energy-efficient windows and doors a wise investment. We offer a wide range of options that will help keep your home warm, comfortable, and energy-efficient. Premier Window Pros is committed to providing exceptional service and top-quality products to the Edina community.",
+        "localContext": "Edina, Minnesota, is known for its upscale residential areas featuring a mix of architectural styles, including Tudor and modern designs.",
+        "nearbyAreas": [
+          "Richfield",
+          "Bloomington",
+          "St. Louis Park"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Window Replacement",
+        "text": "Premier Window Pros did an amazing job replacing our old, drafty windows! Our house is so much warmer now, and the new windows look beautiful. The installation team was professional, efficient, and cleaned up everything perfectly. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Door Installation",
+        "text": "We had Premier Window Pros install a new front door, and we're very happy with the results. The door is solid and secure, and it looks great. There was a minor issue with the paint color, but they quickly resolved it to our satisfaction.",
+        "date": "2025-04-02"
+      },
+      {
+        "name": "Emily L.",
+        "rating": 5,
+        "service": "Storm Door Installation",
+        "text": "Excellent service! The team at Premier Window Pros installed a storm door for us. They were on time, professional, and did a great job. Very happy with result. Would use again.",
+        "date": "2025-05-10"
+      },
+      {
+        "name": "Tom S.",
+        "rating": 5,
+        "service": "Window Repair",
+        "text": "I had a cracked window pane and Premier Window Pros came out quickly to replace it. They were very professional and the price was reasonable. I would definitely use them again for any window repairs.",
+        "date": "2025-06-22"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 5,
+        "service": "Patio Door Installation",
+        "text": "We love our new patio door! Premier Window Pros did an excellent job with the installation. It slides smoothly and lets in so much light. Their team was very helpful in choosing the right style for our home.",
+        "date": "2025-07-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 4,
+        "service": "Energy-Efficient Upgrades",
+        "text": "Premier Window Pros helped us make our home more energy-efficient with new windows and insulation. We've already noticed a difference in our energy bills. The only reason I didn't give 5 stars is because the project took a little longer than expected.",
+        "date": "2025-08-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Premier Window Pros | Minneapolis MN",
+        "description": "Expert window & door installation in Minneapolis. Energy-efficient solutions for MN winters. Free quotes!"
+      },
+      "about": {
+        "title": "About Premier Window Pros",
+        "description": "Learn about Premier Window Pros, your trusted window and door contractor in Minneapolis, MN. Local experts, quality service."
+      },
+      "services": {
+        "title": "Window & Door Services | Minneapolis",
+        "description": "Premier Window Pros: Window replacement, door installation, repair services in Minneapolis. Expert craftsmanship."
+      },
+      "contact": {
+        "title": "Contact Premier Window Pros",
+        "description": "Contact Premier Window Pros for window and door services in Minneapolis, MN. Get a free quote today!"
+      },
+      "reviews": {
+        "title": "Premier Window Pros Reviews",
+        "description": "Read reviews for Premier Window Pros in Minneapolis, MN. See what our customers say about our window and door services."
+      },
+      "service-areas": {
+        "title": "Premier Window Pros Service Areas",
+        "description": "Premier Window Pros provides window and door services throughout the Minneapolis metro area. See our service locations."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "window-replacement": "/images/service-window-replacement.webp",
+      "door-installation": "/images/service-door-installation.webp",
+      "storm-door-installation": "/images/service-storm-door-installation.webp",
+      "patio-door-installation": "/images/service-patio-door-installation.webp",
+      "window-repair": "/images/service-window-repair.webp",
+      "custom-window-installation": "/images/service-custom-window-installation.webp",
+      "energy-efficient-upgrades": "/images/service-energy-efficient-upgrades.webp"
+    },
+    "servicesResponsive": {
+      "window-replacement": {
+        "src": "/images/service-window-replacement.webp",
+        "srcset": "/images/service-window-replacement-400w.webp 400w, /images/service-window-replacement-800w.webp 800w, /images/service-window-replacement-1200w.webp 1200w, /images/service-window-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "door-installation": {
+        "src": "/images/service-door-installation.webp",
+        "srcset": "/images/service-door-installation-400w.webp 400w, /images/service-door-installation-800w.webp 800w, /images/service-door-installation-1200w.webp 1200w, /images/service-door-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-door-installation": {
+        "src": "/images/service-storm-door-installation.webp",
+        "srcset": "/images/service-storm-door-installation-400w.webp 400w, /images/service-storm-door-installation-800w.webp 800w, /images/service-storm-door-installation-1200w.webp 1200w, /images/service-storm-door-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "patio-door-installation": {
+        "src": "/images/service-patio-door-installation.webp",
+        "srcset": "/images/service-patio-door-installation-400w.webp 400w, /images/service-patio-door-installation-800w.webp 800w, /images/service-patio-door-installation-1200w.webp 1200w, /images/service-patio-door-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "window-repair": {
+        "src": "/images/service-window-repair.webp",
+        "srcset": "/images/service-window-repair-400w.webp 400w, /images/service-window-repair-800w.webp 800w, /images/service-window-repair-1200w.webp 1200w, /images/service-window-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "custom-window-installation": {
+        "src": "/images/service-custom-window-installation.webp",
+        "srcset": "/images/service-custom-window-installation-400w.webp 400w, /images/service-custom-window-installation-800w.webp 800w, /images/service-custom-window-installation-1200w.webp 1200w, /images/service-custom-window-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "energy-efficient-upgrades": {
+        "src": "/images/service-energy-efficient-upgrades.webp",
+        "srcset": "/images/service-energy-efficient-upgrades-400w.webp 400w, /images/service-energy-efficient-upgrades-800w.webp 800w, /images/service-energy-efficient-upgrades-1200w.webp 1200w, /images/service-energy-efficient-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
